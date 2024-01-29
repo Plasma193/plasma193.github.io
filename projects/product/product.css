@@ -1,0 +1,153 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 85%;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  header {
+    position: fixed;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFCB82;
+    z-index: 1;
+  }
+  
+  
+  #nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+    width: 85%
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    background-color: #F7C165;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  main {
+    position: absolute;
+    top: 150px;
+  }
+  
+  .big-section {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .blurb{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem
+  }
+  
+  .bs1 {
+    background-color: #36B8BA;
+  }
+  
+  .bs1 article {
+    width:50%;
+  }
+  
+  .bs2 {
+    background-color: #149599;
+  }
+  
+  .bs3 {
+    background-color: #047B89;
+  }
+  
+  form {
+    font-family: 'Playfair Display', serif;
+    width: 60%;
+    margin: 0 em;
+    padding: 5%;
+    display: block;
+    align-content: right;
+  }
+  
+  label {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: max(200px, 100%);
+    min-height: 2em;
+    align-content: center;
+  }
+  
+  input[type="submit"] {
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    width: 30%;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .bs2 {
+      display:grid;
+      align-content: center;
+      padding: 50px;
+      margin: 0;
+    }
+    .bs2 .heading {
+      height: 5%
+    }
+  }
+  @media only screen and (max-width: 820px) {
+    #nav-bar {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .big-section {
+      padding: 50px;
+      margin: 0;
+      display: grid;
+      align-content: center;
+    }
+    #nav-bar {
+      font-size: 1rem;
+    }
+    .bs1 article{
+      width: 100%;
+    }
+    .heading {
+      height: 5%;
+      padding-bottom: 5%;
+    }
+    form {
+      width: 100%;
+      padding-top: 10%;
+    }
+  }
