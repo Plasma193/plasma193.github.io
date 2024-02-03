@@ -273,8 +273,13 @@ section .container {
 
 /* footer css */
 footer {
-  background-color: var(--background-color);
   color: var(--theme-color);
   text-align: center;
   padding: 10px;
+  background-color: var(--background-color-alt);
+}
+
+footer .fab,
+.fa {
+  margin: 0 2rem;
 }
