@@ -1,2 +1,2 @@
 # plasma193.github.io
-Github pages repo
+Github pages repo for my portfolio

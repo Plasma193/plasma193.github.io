@@ -2,57 +2,186 @@
 <html lang="en">
 
 <head>
-  <title>Luke's Portfolio</title>
+  <title>Luke Pasma: SWE Manager</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Luke's Portfolio Project for freeCodeCamp">
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./product/product.css">
+  <meta name="description" content="Luke's Portfolio to show off all my work.">
+  <meta name="theme-color" content="#0f5256">
+  <meta name="msapplication-navbutton-color" content="#0f5256">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="icon" type="image/png" href="static/images/luke-portrait-nobg-noname.png">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
 </head>
 
 <body>
-  <nav id="navbar">
-    <ul>
-      <li><a href="#welcome-section">Welcome</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#socials">Contact Me</a></li>
-    </ul>
+  <nav>
+    <div class="container">
+      <a href="/" class="nav-logo" title="Back to Homepage">
+        Luke Pasma
+      </a>
+      <div class="nav-links">
+        <a href="about" class="link">About</a>
+        <a href="resume" class="link">Resume</a>
+        <a href="https://codepen.io/Plasma193" target="_blank" class="link">Projects</a>
+        <a href="socials" class="link">Contact Me</a>
+      </div>
+    </div>
   </nav>
   <main>
-    <section id="welcome-section" class="big-section">
-      <h1>Hey, Luke here 🖐️</h1>
-      <div id="title-container">
-        <p class="title">SWE Manager</p>
-        <p class="title">Web Dev</p>
-        <p class="title">Father</p>
+    <section id="about">
+      <div class="container inner-container">
+        <h1 class="section-title">Hey, Luke here... <span class="title-icon">🖐️</span></h1>
+        <div class="section-subtitle">
+          <p>I'm a Software Engineering Manager who's looking to find a team to mentor and grow into the best versions
+            of themselves.</p>
+
+          <p>I'm passionate about delivering meaningful products based in solid software development practices. I've
+            been
+            working at this for 9 years from entry level programmer to team lead for a worldwide dev team. In that time
+            I've worked on a variety of front-end, back-end, and database technologies like Java, Spring, Javascript,
+            Typescript, React, CSS, Mysql, and MongoDB.</p>
+
+          <p>As a manager I've found that I really love making a team the best version it can be by enabling the coders
+            to develop their skills and let them shine in the areas they excel at.</p>
+
+          <p>I really enjoy solving problems and seeing a product develop over time. I've always taken pride in my work
+            especially if I'm able to help steer the company or product in the right direction.
+          </p>
+        </div>
+        <div class="section-more">
+          <a href="about" class="more-button">More about me</a>
+        </div>
       </div>
     </section>
-    <section id="projects" class="big-section">
-      <h2>These are some of my projects</h2>
-      <div id="project-container">
-        <div>
-          <a class="project-tile" href="projects/product/product.html">Map Product Page</a>
+    <section id="resume">
+      <div class="container inner-container">
+        <h1 class="section-title">Resume Highlights <span>📝</span></h1>
+        <div class="section-subtitle list">
+          <ul>
+            <li>
+              <span>Directed and managed a multinational development team of seven, fostering collaboration and driving
+                successful project outcomes.</span>
+            </li>
+            <li>
+              <span>Acted as a liaison between development teams and customers, shaping roadmaps and feature
+                requirements collaboratively.</span>
+            </li>
+            <li>
+              <span>Proficient in Agile methodologies, including Scrum, with hands-on experience</span>
+            </li>
+            <li>
+              <span>Dedicated to fostering team growth and optimizing performance.</span>
+            </li>
+            <li>
+              <span>Versatile Full-stack Developer as required.</span>
+            </li>
+          </ul>
         </div>
-        <div><a class="project-tile" target="_blank" href="https://codepen.io/Plasma193/full/GReqXGo">Games Bio</a>
-        </div>
-        <div><a class="project-tile" target="_blank" href="https://codepen.io/Plasma193/full/oNVLPyK">Survey Example</a>
+        <div class="section-more">
+          <a href="resume" class="more-button">View Full Resume</a>
         </div>
       </div>
     </section>
-    <section id="socials" class="big-section">
-      <h1>If you'd like to work with me...</h1>
-      <ul class="profiles-container">
-        <li><a class="profile-link" target="_blank" href="https://www.linkedin.com/in/luke-pasma/">LinkedIn</a></li>
-        <li><a id="profile-link" class="profile-link" target="_blank" href="https://github.com/Plasma193">GitHub</a>
-        </li>
-        <li><a class="profile-link" target="_blank" href="mailto:luke.pasma@gmail.com">Email</a></li>
-      </ul>
+    <section id="projects">
+      <div class="container inner-container">
+        <h1 class="section-title">These are some of my projects <span>📊</span></h1>
+        <p class="section-subtitle">
+          I'm currently working through Free Code Camp's curriculum to aquire the certifications they offer and stay
+          up to date with my skills.
+        </p>
+        <div class="project-scroll">
+          <div class="project">
+            <div class="project-text">
+              <h3 class="project-title">Markdown Previewer</h3>
+            </div>
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="OJqmXPR"
+              data-user="Plasma193"
+              style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Plasma193/pen/OJqmXPR">
+                  Markdown Previewer</a> by Luke Pasma (<a href="https://codepen.io/Plasma193">@Plasma193</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+
+          <div class="project">
+            <div class="project-text">
+              <h3 class="project-title">Tech Doc Example</h3>
+            </div>
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="GReqXGo"
+              data-user="Plasma193"
+              style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Plasma193/pen/GReqXGo">
+                  Luke's Games</a> by Luke Pasma (<a href="https://codepen.io/Plasma193">@Plasma193</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+
+          <div class="project">
+            <div class="project-text">
+              <h3 class="project-title">City Skyline Example</h3>
+            </div>
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="jOJxKVM"
+              data-user="Plasma193"
+              style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Plasma193/pen/jOJxKVM">
+                  Untitled</a> by Luke Pasma (<a href="https://codepen.io/Plasma193">@Plasma193</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+
+          <div class="project">
+            <div class="project-text">
+              <h3 class="project-title">Map Product Example</h3>
+            </div>
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="wvOWEyo"
+              data-user="Plasma193"
+              style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Plasma193/pen/wvOWEyo">
+                  Map Product Page</a> by Luke Pasma (<a href="https://codepen.io/Plasma193">@Plasma193</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+
+          <div class="project">
+            <div class="project-text">
+              <h3 class="project-title">Random Quote Machine</h3>
+            </div>
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="WNmjbMB"
+              data-user="Plasma193"
+              style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Plasma193/pen/WNmjbMB">
+                  Random Quote Machine</a> by Luke Pasma (<a href="https://codepen.io/Plasma193">@Plasma193</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        </div>
+        <div class="section-more">
+          <a href="https://codepen.io/Plasma193" target="_blank" class="more-button">See all projects</a>
+        </div>
+      </div>
+    </section>
+    <section id="socials">
+      <div class="container">
+        <h1 class="section-title">If you'd like to work with me... 🤝</h1>
+        <ul class="profiles-container">
+          <li><a class="profile-link" target="_blank" href="https://www.linkedin.com/in/luke-pasma/">LinkedIn</a></li>
+          <li><a id="profile-link" class="profile-link" target="_blank" href="https://github.com/Plasma193">GitHub</a>
+          </li>
+          <li><a class="profile-link" target="_blank" href="mailto:luke.pasma@gmail.com">Email</a></li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer>
     <p>Created by Luke Pasma. Support me on <a target="_blank"
         href="https://www.paypal.com/paypalme/plasma193">Paypal</a></p>
+    <p>Avatar made by <a href="https://www.instagram.com/christophercomix/">christophercomix</a></p>
   </footer>
 </body>
 
