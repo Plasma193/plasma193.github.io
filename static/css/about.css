@@ -1,0 +1,11 @@
+.floating-container {
+    display: flex;
+}
+
+.floating {
+    flex: 1;
+}
+
+.floating:first-child {
+    margin-right: 20px;
+}
