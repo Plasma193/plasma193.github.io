@@ -283,3 +283,34 @@ footer .fab,
 .fa {
   margin: 0 2rem;
 }
+
+.floating-container {
+  display: flex;
+}
+
+.floating {
+  flex: 1;
+}
+
+.floating:first-child {
+  margin-right: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-subtitle {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+.info-container:not(:last-child) {
+  border-bottom: 3px dotted var(--theme-color);
+}
+
+.resume-viewer {
+  height: 75vh;
+}
